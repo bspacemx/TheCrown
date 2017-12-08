@@ -462,7 +462,8 @@
               }
             },
             ".mbr-section-text": {
-              "color": "#000000"
+              "color": "#000000",
+              "text-align": "justify"
             },
             ".tab-header": {
               "color": "#000000"
@@ -475,7 +476,9 @@
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
         },
         {
           "_styles": {
@@ -683,6 +686,9 @@
             },
             "P": {
               "text-align": "left"
+            },
+            ".mbr-text": {
+              "text-align": "justify"
             }
           },
           "_name": "tabs3",

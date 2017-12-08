@@ -1141,6 +1141,7 @@ body {
 }
 .cid-qDf9aaONfb .mbr-section-text {
   color: #000000;
+  text-align: justify;
 }
 .cid-qDf9aaONfb .tab-header {
   color: #000000;
@@ -1305,6 +1306,9 @@ body {
 }
 .cid-qDfpUJOgn6 P {
   text-align: left;
+}
+.cid-qDfpUJOgn6 .mbr-text {
+  text-align: justify;
 }
 .cid-qDffS7y736 {
   padding-top: 90px;
