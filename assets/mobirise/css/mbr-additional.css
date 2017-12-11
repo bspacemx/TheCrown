@@ -823,6 +823,18 @@ body {
   height: auto;
   min-height: 100vh;
 }
+.cid-qDx3Cvcw0G {
+  background-image: url("../../../assets/images/herocrown-2000x1384.jpg");
+}
+.cid-qDx3Cvcw0G .mbr-section-title {
+  letter-spacing: .1em;
+}
+.cid-qDx3Cvcw0G .mbr-text {
+  letter-spacing: 0.03rem;
+}
+.cid-qDx3Cvcw0G .card-img span {
+  font-size: 100px;
+}
 .cid-qDfCjODgpC .nav-item:focus,
 .cid-qDfCjODgpC .nav-link:focus {
   outline: none;
@@ -1068,6 +1080,7 @@ body {
   font-weight: bold;
   color: #000000;
   margin-bottom: 2.5rem;
+  font-size: 1rem;
 }
 .cid-qDf9aaONfb .mbr-section-subtitle {
   font-weight: 500;
@@ -1255,7 +1268,7 @@ body {
   min-height: 1px;
 }
 .cid-qDfpUJOgn6 .tab-content {
-  width: 60%;
+  width: 70%;
 }
 .cid-qDfpUJOgn6 .nav {
   border: none;
@@ -1309,35 +1322,6 @@ body {
 }
 .cid-qDfpUJOgn6 .mbr-text {
   text-align: justify;
-}
-.cid-qDffS7y736 {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #ffffff;
-}
-.cid-qDffS7y736 .mbr-section-title {
-  letter-spacing: 0.1em;
-}
-.cid-qDffS7y736 .mbr-section-subtitle {
-  color: #444444;
-  letter-spacing: 0.03em;
-}
-.cid-qDffS7y736 .client-name {
-  color: #444;
-  letter-spacing: 0.05em;
-}
-.cid-qDffS7y736 .wrap-img {
-  padding-bottom: 1rem;
-}
-.cid-qDffS7y736 .wrap-img img {
-  max-width: 100%;
-}
-.cid-qDffS7y736 .card-box p {
-  color: #444;
-  font-weight: 500;
-  letter-spacing: 0.03em;
-  margin: 0;
-  padding-bottom: 1.5rem;
 }
 .cid-qDfg22G3Yf {
   padding-top: 90px;
