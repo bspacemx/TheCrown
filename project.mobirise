@@ -36,7 +36,7 @@
     "versionFirst": "4.5.1",
     "uniqCompNum": 28,
     "versionPublish": "4.5.1",
-    "favicon": "",
+    "favicon": "@PROJECT_PATH@/assets/images/crown-full-127x127.png",
     "noImageResize": "",
     "cookiesAlert": "",
     "google-analytics": "",
