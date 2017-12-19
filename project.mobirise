@@ -26,11 +26,12 @@
         "#f7f7f7",
         "#3b3b3b",
         "#f9f9f9",
-        "#3e3e3e"
+        "#3e3e3e",
+        "#e9e9e9"
       ]
     },
     "versionFirst": "4.5.1",
-    "uniqCompNum": 30,
+    "uniqCompNum": 33,
     "versionPublish": "4.5.1"
   },
   "pages": {
@@ -143,9 +144,9 @@
               {
                 "image": "@PROJECT_PATH@/assets/images/sin-ttulo-1-4-2000x1321.jpg",
                 "active": false,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": false,
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "title": "FULL SCREEN SLIDER",
@@ -157,9 +158,9 @@
               {
                 "image": "@PROJECT_PATH@/assets/images/one-on-one-meeting-1500x1000.jpg",
                 "active": false,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": false,
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "title": "IMAGE SLIDE",
@@ -170,10 +171,10 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/conciliacion-bancaria-automatica-whitepaper-co-780x520-780x520.jpg",
-                "active": false,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
+                "active": true,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": false,
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "title": "FULL SCREEN SLIDER",
@@ -184,7 +185,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/sin-ttulo-1-1-2000x507.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": true,
                 "showTitle": true,
@@ -230,7 +231,7 @@
             "overlayOpacity": "0.7"
           },
           "title": "¿Quiénes somos?",
-          "caption": "<p>Somos una red de conexiones empresariales especializada en la generación de estrategias integrales que brindan una gran variedad de soluciones personalizadas para los negocios de nuestros clientes, colaboradores y aliados.</p><p><span style=\"font-size: 1.07rem;\">Nuestro objetivo es propiciar el aumento de las utilidades de tu negocio sin importar su tamaño.</span><br></p>",
+          "caption": "<p>Somos una empresa que ofrece oportunidades de negocio a través de varios productos y servicios. Contamos con una red especializada en la generación de estrategias integrales para dar soluciones personalizadas a tus diferentes necesidades.\r</p><p>En The Crown nos dedicamos a crear conexiones empresariales, con el objetivo de generarle una mayor utilidad a nuestros clientes, colaboradores y aliados.\r&nbsp;<span style=\"font-size: 1.07rem;\">No importa el tamaño de tu negocio nosotros te podemos ayudar.</span></p>",
           "_tags": [
             "Theme"
           ],
@@ -238,131 +239,43 @@
           "_anchor": "content5-2"
         },
         {
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#2d2d2d"
-            },
-            "DIV": {
-              "color": "#2d2d2d"
-            },
-            "P": {
-              "color": "#848484"
-            }
-          },
           "_params": {
-            "showTitle": true,
-            "showSubtitle": false,
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "showTitles": true,
+            "tabs": "4",
+            "paddingTop": 2,
+            "paddingBottom": 2,
             "bgImageRadio": false,
-            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/extFeatures1/images/jumbotron.jpg",
+            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extTabs1.jpg",
             "parallax": false,
             "bgColorRadio": true,
-            "bgColor": "#ffffff",
+            "bgColor": "#fff",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "overlay": false,
+            "overlay": true,
             "overlayColor": "#151515",
-            "overlayOpacity": 0.75
+            "overlayOpacity": 0.2
           },
-          "media": {
-            "image": {
-              "class": "central-image",
-              "src": "@PROJECT_PATH@/assets/images/iphone-vertical.png",
-              "active": true
-            }
-          },
-          "media1": {
-            "iconFont": {
-              "class": "mbr-iconfont-features6",
-              "linkInNewWindow": false,
-              "name": "target",
-              "family": "MobiriseIcons",
-              "active": true,
-              "size": 0,
-              "color": "@primaryColor"
-            }
-          },
-          "media2": {
-            "iconFont": {
-              "class": "mbr-iconfont-features6",
-              "linkInNewWindow": false,
-              "name": "preview",
-              "family": "MobiriseIcons",
-              "active": true,
-              "size": 0,
-              "color": "@primaryColor"
-            }
-          },
-          "media3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont-features6",
-              "name": "desktop",
-              "size": 0,
-              "color": "@primaryColor",
-              "family": "et-line"
-            }
-          },
-          "media4": {
-            "iconFont": {
-              "class": "mbr-iconfont-features6",
-              "linkInNewWindow": false,
-              "name": "star",
-              "family": "MobiriseIcons",
-              "active": true,
-              "size": 0,
-              "color": "@primaryColor"
-            }
-          },
-          "media5": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont-features6",
-              "name": "edit",
-              "size": 0,
-              "color": "@primaryColor",
-              "family": "et-line"
-            }
-          },
-          "media6": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont-features6",
-              "name": "linegraph",
-              "size": 0,
-              "color": "@primaryColor",
-              "family": "et-line"
-            }
-          },
-          "title": "Nosotros",
-          "subtitle": "This theme is based on Bootstrap 3 and Bootstrap 4 - most powerful mobile first framework.",
-          "feature_title1": "MISIÓN",
-          "feature_subtitle1": "Creative and intelligent solutions",
-          "feature_text1": "Generar una mayor rentabilidad a las empresas aliadas a nuestra red, siendo la conexión que asegure la confianza entre clientes, colaboradores y socios.",
-          "feature_title2": "VISIÓN",
-          "feature_subtitle2": "High resolution screens friendly",
-          "feature_text2": "Consolidarnos como la red empresarial más fuerte con la labor de promover y conectar a los negocios que ofrecen los mejores productos y servicios; ayudándolos a crecer y a mantenerse como empresas sólidas en el mercado.",
-          "feature_title3": "Translation ready",
-          "feature_subtitle3": "Find a common language with anyone",
-          "feature_text3": "Donec felis leo, placerat et porttitor, fermentum ut nunc. Integer consequat pretium tempor. Fusce aliquam libero quis dui dictum.",
-          "feature_title4": "VALORES",
-          "feature_subtitle4": "Suits well all devices and screen sizes",
-          "feature_text4": "•\tPersistencia\n<br>•\tCalidad\n<br>•\tCompromiso\n<br>•\tHonestidad\n<br>•\tConfianza\n<br>•\tResponsabilidad\n<br>•\tRespeto&nbsp;<br>",
-          "feature_title5": "",
-          "feature_subtitle5": "",
-          "feature_text5": "",
-          "feature_title6": "Awesome parallax",
-          "feature_subtitle6": "Enjoy smooth bg sliding on scroll",
-          "feature_text6": "Donec felis leo, placerat et porttitor, fermentum ut nunc. Integer consequat pretium tempor. Fusce aliquam libero quis dui dictum.",
+          "title1": "Misión",
+          "title2": "Visión",
+          "title3": "Visión",
+          "title4": "Valores",
+          "title5": "Filosofía",
+          "title6": "Tab heading 6",
+          "tabTitle": "<li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1extTabs1-u\" aria-expanded=\"false\">Misión</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3extTabs1-u\" aria-expanded=\"false\">Visión</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4extTabs1-u\" aria-expanded=\"false\">Valores</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5extTabs1-u\" aria-expanded=\"true\">Filosofía</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6extTabs1-u\">Beautiful</a></li>",
+          "text1": "Generar una mayor rentabilidad a las empresas aliadas a nuestra red, siendo la conexión que le de la confianza a los clientes, colaboradores y socios; trabajando siempre en equipo, para fortalecernos mutuamente y así poder llegar al éxito.",
+          "text2": "Consolidarnos como la empresa que promueve y conecta a los negocios que ofrezcan los mejores productos y servicios. Creando y desarrollando estrategias que mantengan a los clientes aliados satisfechos, ayudándolos a crecer y a mantenerse como empresas sólidas en el mercado.",
+          "text3": "Consolidarnos como la empresa que promueve y conecta a los negocios que ofrezcan los mejores productos y servicios. Creando y desarrollando estrategias que mantengan a los clientes aliados satisfechos, ayudándolos a crecer y a mantenerse como empresas sólidas en el mercado.&nbsp;<br>",
+          "text4": "Persistencia ,calidad, compromiso, honestidad, confianza, responsabilidad, respeto.<br>",
+          "text5": "La filosofía de The Crown Connecting Businesses, se representa a través de nuestros valores, los cuales tienen como objetivo lograr el bienestar de nuestros aliados, haciéndolos alcanzar el éxito, así como potenciar su negocio en el mercado que se desarrollen. Somos una empresa que se esfuerza día a día para mejorar nuestros servicios, así como el de nuestros aliados. Siempre dispuestos a emplear los conocimientos que tenemos, con calidad y excelencia, para poder cumplir los objetivos que nos proponemos.&nbsp;<br>",
+          "text6": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis quam in risus pulvinar ultrices eget non sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae proin accumsan odio.",
           "alias": "mobirise3-blocks/components",
           "_tags": [
             "Extension"
           ],
-          "_name": "extFeatures1",
-          "_anchor": "extFeatures1-3"
+          "_name": "extTabs1",
+          "_anchor": "extTabs1-u"
         },
         {
           "_params": {
@@ -378,10 +291,10 @@
           ],
           "_name": "header3",
           "_anchor": "header3-j",
-          "_customHTML": "<section class=\"mbr-section mbr-section__container article\" data-rv-view=\"23\" style=\"background-color: rgb(255, 255, 255); padding-top: 20px; padding-bottom: 60px;\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-xs-12\">\n                <h3 class=\"mbr-section-title display-2 mbr-editable-content\" style=\"text-align: center; color: rgb(45, 45, 45);\" code-editable-id=\"58\">Servicios</h3>\n                \n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section mbr-section__container article\" data-rv-view=\"23\" style=\"background-color: rgb(255, 255, 255); padding-top: 20px; padding-bottom: 60px;\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-xs-12\">\n                <h3 class=\"mbr-section-title display-2 mbr-editable-content\" style=\"text-align: center; color: rgb(45, 45, 45);\" code-editable-id=\"16\">Servicios</h3>\n                \n            </div>\n        </div>\n    </div>\n</section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
-          "_customCSS": "@import url(undefined);\n.mbr-section-title, .mbr-section-subtitle {\n  text-align: center;\n}\n.mbr-section-title {\n  color: #2d2d2d;\n  border-top: solid .5px #c0a375;\n  padding: 100px;\n}\n",
+          "_customCSS": "@import url(undefined);\n.mbr-section-title, .mbr-section-subtitle {\n  text-align: center;\n}\n.mbr-section-title {\n  color: #2d2d2d;\n  padding-bottom: 80px;\n}\n",
           "_customTemplate": true
         },
         {
@@ -568,97 +481,108 @@
         {
           "_params": {
             "showTitle": true,
+            "showContacts": true,
             "showSubtitle": false,
-            "autoplay": true,
-            "timeout": 5,
-            "paddingTop": 2,
+            "showText": true,
+            "showIcons": true,
+            "showForm": true,
+            "inverse": true,
+            "paddingTop": 1,
             "paddingBottom": 1,
-            "showArrows": true,
-            "showBullets": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/flight-mountains-sky-flying.jpg",
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extForm1_bg.jpg",
             "parallax": false,
-            "bgColorRadio": false,
-            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgColor": "#e9e9e9",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "overlay": false,
+            "overlay": true,
             "overlayColor": "#000",
-            "overlayOpacity": 0.5,
-            "visibleSlides": "5",
-            "slides": [
-              {
-                "active": false,
-                "media": {
-                  "image": {
-                    "src": "@PROJECT_PATH@/assets/images/1.png",
-                    "link": "https://mobirise.com",
-                    "active": true
-                  }
-                }
-              },
-              {
-                "active": false,
-                "media": {
-                  "image": {
-                    "src": "@PROJECT_PATH@/assets/images/2.png",
-                    "link": "https://mobirise.com",
-                    "active": true
-                  }
-                }
-              },
-              {
-                "active": false,
-                "media": {
-                  "image": {
-                    "src": "@PROJECT_PATH@/assets/images/3.png",
-                    "link": "https://mobirise.com",
-                    "active": true
-                  }
-                }
-              },
-              {
-                "active": true,
-                "media": {
-                  "image": {
-                    "src": "@PROJECT_PATH@/assets/images/4.png",
-                    "link": "https://mobirise.com",
-                    "active": true
-                  }
-                }
-              },
-              {
-                "active": false,
-                "media": {
-                  "image": {
-                    "src": "@PROJECT_PATH@/assets/images/5.png",
-                    "link": "https://mobirise.com",
-                    "active": true
-                  }
-                }
-              },
-              {
-                "active": false,
-                "media": {
-                  "image": {
-                    "src": "@PROJECT_PATH@/assets/images/3.png",
-                    "link": "https://mobirise.com",
-                    "active": true
-                  }
-                }
-              }
-            ]
+            "overlayOpacity": 0.1,
+            "iconsColor": "#333333",
+            "buttons2": "<a data-app-btn=\"true\" type=\"submit\" class=\"nav-link btn btn-primary\">BUY</a>"
           },
-          "title": "Alianzas",
-          "subtitle": "\"Our clients\" carousel with adjustable number of visible clients.",
+          "title": "¿Tienes dudas?",
+          "title1": "Teléfono",
+          "title2": "Correo",
+          "subTitle1": "Ready for offers & cooperation",
+          "subTitle2": "Glad to meet new people",
+          "text1": "T. (55) 553 045 5809",
+          "text2": "contacto@thecrownmx.com",
+          "buttons2": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">SEND MESSAGE</a>",
+          "media": {
+            "image": {
+              "active": true,
+              "class": "central-image",
+              "src": "@PROJECT_PATH@/assets/images/web-iphoneblack-544x1033.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "size": 0,
+              "class": "mbr-iconfont mbr-iconfont-header2 ",
+              "color": "@primaryColor"
+            }
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont-form1",
+              "linkInNewWindow": false,
+              "name": "mobile",
+              "family": "MobiriseIcons",
+              "active": true,
+              "size": 0,
+              "color": "#666666"
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont-form1",
+              "linkInNewWindow": false,
+              "name": "paper-plane",
+              "family": "MobiriseIcons",
+              "active": true,
+              "size": 0,
+              "color": "#666666"
+            }
+          },
+          "form": {
+            "action": "contacto@thecrownmx.com",
+            "alerts": {
+              "success": "¡Gracias por llenar el formulario! Te contactaremos en breve."
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Nombre"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Correo"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Teléfono"
+              },
+              "message": {
+                "visible": true,
+                "title": "Message",
+                "customTitle": "Mensaje"
+              }
+            }
+          },
           "alias": "mobirise3-blocks/components",
           "_tags": [
             "Extension"
           ],
-          "_name": "extTestimonials5",
-          "_anchor": "extTestimonials5-t"
+          "_name": "extForm1",
+          "_anchor": "extForm1-v"
         },
         {
           "_inherit": "social-buttons2",
@@ -685,47 +609,59 @@
           "_tags": [
             "Theme"
           ],
-          "text": "FOLLOW US",
-          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social btn-black\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social btn-black\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social btn-black\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-instagram\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social btn-black\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-linkedin\"></i></a>   ",
+          "text": "¡Síguenos!",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social btn-black\" title=\"Twitter\" target=\"_blank\" href=\"https://www.behance.net/TheCrownMx\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><span class=\"socicon socicon-behance mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 30px;\"></span></a> <a data-app-btn=\"true\" class=\"btn btn-social btn-black\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/Thecrownmx/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social btn-black\" title=\"Instagram\" target=\"_blank\" href=\"https://www.instagram.com/thecrownmx/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-instagram\"></i></a>      ",
           "_name": "social-buttons4",
           "_anchor": "social-buttons4-k"
         },
         {
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "showTitle": false,
+            "showLogo": true,
+            "progress": "100",
+            "paddingTop": 1,
+            "paddingBottom": 1,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
+            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extFooter1_bg.jpg",
+            "parallax": false,
             "bgColorRadio": true,
-            "bgColor": "#2e2e2e",
+            "bgColor": "#262626",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=7LDRrdD-Qww"
+            },
             "overlay": true,
-            "overlayColor": "#3C3C3C",
-            "overlayOpacity": 0.8
+            "overlayColor": "#000",
+            "overlayOpacity": 0.4
           },
-          "logo": {
+          "list": "<ul>Connecting Businesses</ul>",
+          "title": "MOBIRISE",
+          "media": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/imagotipo-127x127.png",
-              "width": 128,
               "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/thecrown-hz-1400x354.png",
               "link": "",
               "alt": "",
               "title": ""
             },
             "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "class": "mbr-iconfont mbr-iconfont-header2",
               "link": "",
               "size": 0
             }
           },
-          "text1": "<strong>Address</strong><br>\n1234 Street Name<br>\nCity, AA 99999",
-          "text2": "<strong>Contacto</strong><br>C. &nbsp; &nbsp;contacto@thecrownmx.com<br>\nT. &nbsp; &nbsp;(55) 553 045 5809<br>",
-          "text3": "",
+          "alias": "mobirise3-blocks/components",
           "_tags": [
-            "Theme"
+            "Extension"
           ],
-          "_name": "contacts1",
-          "_anchor": "contacts1-l"
+          "_name": "extFooter1",
+          "_anchor": "extFooter1-w",
+          "_customCSS": "UL {\n  color: #ffffff;\n}\n.mbr-figure {\n    width: 100%;\n}",
+          "_customHTML": "<section class=\"mbr-section extFooter1\" data-rv-view=\"153\" style=\"background-color: rgb(38, 38, 38); padding-top: 40px; padding-bottom: 40px;\">\n\n    \n\n    <div class=\"mbr-table mbr-table-full\">\n        <div class=\"mbr-table-cell\">\n\n            <div class=\"container\">\n                <div class=\"row\">\n                    <div class=\"col-md-12 wraper\">\n                        <div class=\"image_wrap\" style=\"margin-bottom: 25px;\">\n                            <div class=\"mbr-figure\" style=\"width: 300px;\"><img src=\"@PROJECT_PATH@/assets/images/thecrown-hz-1400x354.png\"></div>\n                            \n                        </div>\n                    </div>\n                    <div class=\"col-md-12\">\n                <!--         <div class=\"wrap mbr-editable-content\"><ul>Connecting Businesses</ul></div> -->\n                    </div>\n                </div>\n            </div>\n\n        </div>\n    </div>\n\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customTemplate": true
         }
       ]
     }
