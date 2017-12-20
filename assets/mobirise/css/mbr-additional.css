@@ -760,12 +760,13 @@ h6,
 #msg-box5-s H3 {
   color: #2d2d2d;
 }
-#social-buttons4-k .mbr-section-title,
-#social-buttons4-k .btn-social {
-  color: #fff;
+#social-buttons2-y .mbr-section-title,
+#social-buttons2-y .btn-social {
+  color: #232323;
 }
-#social-buttons4-k .mbr-section-title {
-  color: #000000;
+#social-buttons2-y .fa-behance {
+  padding: 0 0 5px 4px;
+  font-size: 23px;
 }
 #extFooter1-w UL {
   color: #ffffff;
