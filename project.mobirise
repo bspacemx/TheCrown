@@ -167,7 +167,7 @@
                 "title": "The Crown",
                 "overlay": true,
                 "contentAlign": "center",
-                "text": "Tu aliado en estrategias comerciales.",
+                "text": "<span style=\"font-style: normal;\">Tu aliado en estrategias comerciales.</span>",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
@@ -653,8 +653,8 @@
           ],
           "_name": "extFooter1",
           "_anchor": "extFooter1-w",
-          "_customCSS": "UL {\n  color: #ffffff;\n}\n",
-          "_customHTML": "<section class=\"mbr-section extFooter1\" data-rv-view=\"153\" style=\"background-color: rgb(38, 38, 38); padding-top: 40px; padding-bottom: 40px;\">\n\n    \n\n    <div class=\"mbr-table mbr-table-full\">\n        <div class=\"mbr-table-cell\">\n\n            <div class=\"container\">\n                <div class=\"row\">\n                    <div class=\"col-md-12 wraper\">\n                        <div class=\"image_wrap\" style=\"margin-bottom: 25px;\">\n                            <div class=\"mbr-figure\" style=\"width: 300px;\"><img src=\"@PROJECT_PATH@/assets/images/thecrown-hz-1400x354.png\"></div>\n                            \n                        </div>\n                    </div>\n                    <div class=\"col-md-12\">\n                <!--         <div class=\"wrap mbr-editable-content\"><ul>Connecting Businesses</ul></div> -->\n                    </div>\n                </div>\n            </div>\n\n        </div>\n    </div>\n\n</section>",
+          "_customCSS": "UL {\n  color: #ffffff;\n}\n.mbr-figure {\n    width: 300px;\n}",
+          "_customHTML": "<section class=\"mbr-section extFooter1\" data-rv-view=\"153\" style=\"background-color: rgb(38, 38, 38); padding-top: 40px; padding-bottom: 40px;\">\n\n    \n\n    <div class=\"mbr-table mbr-table-full\">\n        <div class=\"mbr-table-cell\">\n\n            <div class=\"container\">\n                <div class=\"row\">\n                    <div class=\"col-md-12 wraper\">\n                        <div class=\"image_wrap\" style=\"margin-bottom: 25px;\">\n                            <div class=\"mbr-figure\"><img src=\"@PROJECT_PATH@/assets/images/thecrown-hz-1400x354.png\"></div>\n                            \n                        </div>\n                    </div>\n                    <div class=\"col-md-12\">\n                <!--         <div class=\"wrap mbr-editable-content\"><ul>Connecting Businesses</ul></div> -->\n                    </div>\n                </div>\n            </div>\n\n        </div>\n    </div>\n\n</section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_customTemplate": true

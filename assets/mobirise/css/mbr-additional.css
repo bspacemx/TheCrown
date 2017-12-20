@@ -782,3 +782,6 @@ h6,
 #extFooter1-w UL {
   color: #ffffff;
 }
+#extFooter1-w .mbr-figure {
+  width: 300px;
+}
