@@ -54,10 +54,10 @@
             "sticky": true,
             "collapsed": true,
             "transparent": false,
-            "bgColor": "#ffffff",
+            "bgColor": "#000000",
             "fontSize": 0.75,
             "fontName": {},
-            "fontColor": "#000000",
+            "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content5-2\">¿Quiénes somos?</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#extTabs1-u\">Nosotros</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-j\">Servicios</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#extForm1-v\">Contacto</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>",
@@ -72,13 +72,13 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#000000"
+              "color": "#ffffff"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#000000"
+              "background-color": "#ffffff"
             },
             ".link, .dropdown-item": {
-              "color": "#000000"
+              "color": "#ffffff"
             },
             ".link": {
               "font-size": "0.75rem"
@@ -90,16 +90,16 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#e6e6e6"
+              "background": "#000000"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#f7f7f7!important"
+              "background": "#000000!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#ffffff"
+              "background": "#000000"
             },
             ".bg-color.transparent .link": {
-              "color": "#000000",
+              "color": "#ffffff",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -115,12 +115,11 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/thecrown-hzblack-505x128.png",
+              "src": "@PROJECT_PATH@/assets/images/thecrown-hz-505x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "#top",
-              "title": "",
-              "linkInNewWindow": false
+              "title": ""
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -150,10 +149,10 @@
                 "showTitle": true,
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "title": "Nosotros te ayudamos",
+                "title": "The Crown",
                 "overlay": true,
                 "contentAlign": "center",
-                "text": "<span style=\"font-style: normal;\">sin importar el tamaño de tu negocio</span>",
+                "text": "<span style=\"font-style: normal;\">Tu aliado</span>",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
@@ -167,21 +166,21 @@
                 "title": "The Crown",
                 "overlay": true,
                 "contentAlign": "center",
-                "text": "<span style=\"font-style: normal;\">Tu aliado en estrategias comerciales.</span>",
+                "text": "<span style=\"font-style: normal;\">Sin importar el tamaño de tu negocio.</span>",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/sin-ttulo-1-1-2000x507.jpg",
+                "image": "@PROJECT_PATH@/assets/images/web-slider3-1650x504.png",
                 "active": true,
                 "showButtons": false,
                 "showText": true,
                 "showTitle": true,
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "title": "Calidad y Experiencia",
+                "title": "The Crown",
                 "overlay": true,
                 "contentAlign": "center",
-                "text": "<span style=\"font-style: normal;\">para conectar tu negocio</span>",
+                "text": "<span style=\"font-style: normal;\">para conectar tu negocio.</span>",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               }
             ]
@@ -215,8 +214,8 @@
           "_params": {
             "showTitle": true,
             "showCaption": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "4",
+            "paddingBottom": "4",
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/bg-crown-2000x696.png",
             "parallax": true,
@@ -242,8 +241,8 @@
           "_params": {
             "showTitles": true,
             "tabs": "4",
-            "paddingTop": 2,
-            "paddingBottom": 2,
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "bgImageRadio": false,
             "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extTabs1.jpg",
             "parallax": false,
@@ -263,7 +262,7 @@
           "title4": "Valores",
           "title5": "Filosofía",
           "title6": "Tab heading 6",
-          "tabTitle": "<li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1extTabs1-u\" aria-expanded=\"false\">Misión</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3extTabs1-u\" aria-expanded=\"false\">Visión</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4extTabs1-u\" aria-expanded=\"false\">Valores</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5extTabs1-u\" aria-expanded=\"true\">Filosofía</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6extTabs1-u\">Beautiful</a></li>",
+          "tabTitle": "<li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1extTabs1-u\" aria-expanded=\"false\">Misión</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3extTabs1-u\" aria-expanded=\"false\">Visión</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4extTabs1-u\" aria-expanded=\"false\">Valores</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5extTabs1-u\" aria-expanded=\"true\">Filosofía</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6extTabs1-u\">Beautiful</a></li>",
           "text1": "Generar una mayor rentabilidad a las empresas aliadas a nuestra red, siendo la conexión que le de la confianza a los clientes, colaboradores y socios; trabajando siempre en equipo, para fortalecernos mutuamente y así poder llegar al éxito.",
           "text2": "Consolidarnos como la empresa que promueve y conecta a los negocios que ofrezcan los mejores productos y servicios. Creando y desarrollando estrategias que mantengan a los clientes aliados satisfechos, ayudándolos a crecer y a mantenerse como empresas sólidas en el mercado.",
           "text3": "Consolidarnos como la empresa que promueve y conecta a los negocios que ofrezcan los mejores productos y servicios. Creando y desarrollando estrategias que mantengan a los clientes aliados satisfechos, ayudándolos a crecer y a mantenerse como empresas sólidas en el mercado.&nbsp;<br>",
@@ -280,7 +279,7 @@
         {
           "_params": {
             "showMeta": false,
-            "paddingTop": "1",
+            "paddingTop": "2",
             "paddingBottom": "3",
             "bgColor": "#ffffff"
           },
@@ -291,11 +290,16 @@
           ],
           "_name": "header3",
           "_anchor": "header3-j",
-          "_customHTML": "<section class=\"mbr-section mbr-section__container article\" data-rv-view=\"23\" style=\"background-color: rgb(255, 255, 255); padding-top: 20px; padding-bottom: 60px;\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-xs-12\">\n                <h3 class=\"mbr-section-title display-2 mbr-editable-content\" style=\"text-align: center; color: rgb(45, 45, 45);\" code-editable-id=\"16\">Servicios</h3>\n                \n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section mbr-section__container article\" data-rv-view=\"23\" style=\"background-color: rgb(255, 255, 255); padding-top: 20px; padding-bottom: 60px;\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-xs-12\">\n                <h3 class=\"mbr-section-title display-2 mbr-editable-content\" style=\"text-align: center; color: rgb(45, 45, 45);\" code-editable-id=\"22\">Servicios</h3>\n                \n            </div>\n        </div>\n    </div>\n</section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
-          "_customCSS": "@import url(undefined);\n.mbr-section-title, .mbr-section-subtitle {\n  text-align: center;\n}\n.mbr-section-title {\n  color: #2d2d2d;\n  padding-bottom: 80px;\n}\n",
-          "_customTemplate": true
+          "_customCSS": "@import url(undefined);\n.mbr-section-title, .mbr-section-subtitle {\n  text-align: center;\n}\n.mbr-section-title {\n  color: #2d2d2d;\n  padding: 80px;\n}\n",
+          "_customTemplate": true,
+          "_styles": {
+            ".mbr-section-title": {
+              "text-align": "center"
+            }
+          }
         },
         {
           "_params": {
@@ -443,7 +447,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/one-on-one-meeting-1400x933.jpg",
+              "src": "@PROJECT_PATH@/assets/images/sin-ttulo-1-2-1400x924.jpg",
               "link": "",
               "alt": "",
               "title": ""
@@ -509,9 +513,9 @@
           "title2": "Correo",
           "subTitle1": "Ready for offers & cooperation",
           "subTitle2": "Glad to meet new people",
-          "text1": "T. (55) 553 045 5809",
+          "text1": "M. (55) 553 045 5809",
           "text2": "contacto@thecrownmx.com",
-          "buttons2": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Enviar</a>",
+          "buttons2": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-secondary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Enviar</a>",
           "media": {
             "image": {
               "active": true,
@@ -604,10 +608,10 @@
           ],
           "_name": "social-buttons2",
           "_anchor": "social-buttons2-y",
-          "_customHTML": "<section class=\"mbr-section mbr-section-md-padding\" data-rv-view=\"363\" style=\"padding-top: 90px; padding-bottom: 90px;\">\n    \n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-8 col-md-offset-2 text-xs-center\">\n                <h3 class=\"mbr-section-title display-2 mbr-editable-content\" code-editable-id=\"16\">¡Síguenos!</h3>\n                <div> <a class=\"btn btn-social mbr-editable-button\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/Thecrownmx/\" code-editable-id=\"17\"><i class=\"socicon socicon-facebook\"></i></a>   <a class=\"btn btn-social mbr-editable-button\" title=\"Instagram\" target=\"_blank\" href=\"https://www.instagram.com/thecrownmx/\" code-editable-id=\"18\"><i class=\"socicon socicon-instagram\"></i></a>   <a class=\"btn btn-social mbr-editable-button\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/thecrownmx-thecrownmx-095333155/\" code-editable-id=\"19\"><i class=\"socicon socicon-linkedin\"></i></a>  <a class=\"btn btn-social mbr-editable-button\" title=\"Behance\" target=\"_blank\" href=\"https://www.behance.net/TheCrownMx\" code-editable-id=\"20\"><span class=\"fa fa-behance mbr-iconfont mbr-iconfont-btn\"></span></a> </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section mbr-section-md-padding\" data-rv-view=\"363\" style=\"padding-top: 90px; padding-bottom: 90px;\">\n    \n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-8 col-md-offset-2 text-xs-center\">\n                <h3 class=\"mbr-section-title display-2 mbr-editable-content\" code-editable-id=\"28\">¡Síguenos!</h3>\n                <div> <a class=\"btn btn-social mbr-editable-button\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/Thecrownmx/\" code-editable-id=\"29\"><i class=\"socicon socicon-facebook\"></i></a>   <a class=\"btn btn-social mbr-editable-button\" title=\"Instagram\" target=\"_blank\" href=\"https://www.instagram.com/thecrownmx/\" code-editable-id=\"30\"><i class=\"socicon socicon-instagram\"></i></a>   <a class=\"btn btn-social mbr-editable-button\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/thecrownmx-thecrownmx-095333155/\" code-editable-id=\"31\"><i class=\"socicon socicon-linkedin\"></i></a>  <a class=\"btn btn-social mbr-editable-button\" title=\"Behance\" target=\"_blank\" href=\"https://www.behance.net/TheCrownMx\" code-editable-id=\"32\"><span class=\"fa fa-behance mbr-iconfont mbr-iconfont-btn\"></span></a> </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
-          "_customCSS": ".mbr-section-title, .btn-social {\n  color: #232323;\n}\n.fa-behance {\n  padding: 0 0 5px 4px;\n  font-size: 23px;\n}",
+          "_customCSS": ".mbr-section-title, .btn-social {\n  color: #232323;\n}\n.fa-behance {\n  padding: 0 0 5px 4px;\n  font-size: 23px;\n}\n",
           "_customTemplate": true
         },
         {

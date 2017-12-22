@@ -678,15 +678,15 @@ h6,
   color: #ffffff;
 }
 #ext_menu-0 .navbar-toggler {
-  color: #000000;
+  color: #ffffff;
 }
 #ext_menu-0 .close-icon::before,
 #ext_menu-0 .close-icon::after {
-  background-color: #000000;
+  background-color: #ffffff;
 }
 #ext_menu-0 .link,
 #ext_menu-0 .dropdown-item {
-  color: #000000;
+  color: #ffffff;
 }
 #ext_menu-0 .link {
   font-size: 0.75rem;
@@ -703,22 +703,22 @@ h6,
 }
 #ext_menu-0 .link[aria-expanded="true"],
 #ext_menu-0 .dropdown-menu {
-  background: #e6e6e6;
+  background: #000000;
 }
 #ext_menu-0 .nav-dropdown-sm .link:focus,
 #ext_menu-0 .nav-dropdown-sm .link:hover,
 #ext_menu-0 .nav-dropdown-sm .dropdown-item:focus,
 #ext_menu-0 .nav-dropdown-sm .dropdown-item:hover {
-  background: #f7f7f7!important;
+  background: #000000!important;
 }
 #ext_menu-0 .navbar,
 #ext_menu-0 .nav-dropdown-sm,
 #ext_menu-0 .nav-dropdown-sm .link[aria-expanded="true"],
 #ext_menu-0 .nav-dropdown-sm .dropdown-menu {
-  background: #ffffff;
+  background: #000000;
 }
 #ext_menu-0 .bg-color.transparent .link {
-  color: #000000;
+  color: #ffffff;
   transition: none;
 }
 #ext_menu-0 .bg-color.transparent.opened .link {
@@ -745,13 +745,16 @@ h6,
 #content5-2 .mbr-section-title {
   color: #2d2d2d;
 }
+#header3-j .mbr-section-title {
+  text-align: center;
+}
 #header3-j .mbr-section-title,
 #header3-j .mbr-section-subtitle {
   text-align: center;
 }
 #header3-j .mbr-section-title {
   color: #2d2d2d;
-  padding-bottom: 80px;
+  padding: 80px;
 }
 #msg-box5-p P {
   font-size: 15px;
