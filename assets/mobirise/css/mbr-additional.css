@@ -699,7 +699,7 @@ h6,
 #ext_menu-0 .dropdown-item:hover,
 #ext_menu-0 .link:focus,
 #ext_menu-0 .dropdown-item:focus {
-  color: #000000;
+  color: #fff;
 }
 #ext_menu-0 .link[aria-expanded="true"],
 #ext_menu-0 .dropdown-menu {
@@ -730,7 +730,10 @@ h6,
 }
 #ext_menu-0 .link[aria-expanded="true"],
 #ext_menu-0 .dropdown-item[aria-expanded="true"] {
-  color: #c0a375!important;
+  color: #000000!important;
+}
+#ext_menu-0 a:hover .nav-link {
+  color: #fff;
 }
 #slider-1 P {
   font-family: 'Lato', sans-serif;
