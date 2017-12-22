@@ -262,7 +262,7 @@
           "title4": "Valores",
           "title5": "Filosofía",
           "title6": "Tab heading 6",
-          "tabTitle": "<li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1extTabs1-u\" aria-expanded=\"false\">Misión</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link text-primary\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3extTabs1-u\" aria-expanded=\"false\">Visión</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4extTabs1-u\" aria-expanded=\"false\">Valores</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5extTabs1-u\" aria-expanded=\"true\">Filosofía</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6extTabs1-u\">Beautiful</a></li>",
+          "tabTitle": "<li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1extTabs1-u\" aria-expanded=\"false\">Misión</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link text-primary\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3extTabs1-u\" aria-expanded=\"false\">Visión</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4extTabs1-u\" aria-expanded=\"true\">Valores</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5extTabs1-u\" aria-expanded=\"false\">Filosofía</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6extTabs1-u\">Beautiful</a></li>",
           "text1": "Generar una mayor rentabilidad a las empresas aliadas a nuestra red, siendo la conexión que le de la confianza a los clientes, colaboradores y socios; trabajando siempre en equipo, para fortalecernos mutuamente y así poder llegar al éxito.",
           "text2": "Consolidarnos como la empresa que promueve y conecta a los negocios que ofrezcan los mejores productos y servicios. Creando y desarrollando estrategias que mantengan a los clientes aliados satisfechos, ayudándolos a crecer y a mantenerse como empresas sólidas en el mercado.",
           "text3": "Consolidarnos como la empresa que promueve y conecta a los negocios que ofrezcan los mejores productos y servicios. Creando y desarrollando estrategias que mantengan a los clientes aliados satisfechos, ayudándolos a crecer y a mantenerse como empresas sólidas en el mercado.&nbsp;<br>",
@@ -274,7 +274,8 @@
             "Extension"
           ],
           "_name": "extTabs1",
-          "_anchor": "extTabs1-u"
+          "_anchor": "extTabs1-u",
+          "_customCSS": ""
         },
         {
           "_params": {
