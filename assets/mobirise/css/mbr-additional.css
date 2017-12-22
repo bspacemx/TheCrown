@@ -735,6 +735,10 @@ h6,
 #slider-1 P {
   font-family: 'Lato', sans-serif;
 }
+#slider-1 H2 {
+  font-size: 60px;
+  text-align: center;
+}
 #content5-2 .mbr-section-title,
 #content5-2 p {
   color: #fff;

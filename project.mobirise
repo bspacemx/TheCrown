@@ -152,7 +152,7 @@
                 "title": "The Crown",
                 "overlay": true,
                 "contentAlign": "center",
-                "text": "<span style=\"font-style: normal;\">Tu aliado</span>",
+                "text": "<span style=\"font-style: normal;\">Tu aliado en estrategias comerciales</span>",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
@@ -163,10 +163,10 @@
                 "showTitle": true,
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "title": "The Crown",
+                "title": "El tamaño de tu negocio",
                 "overlay": true,
                 "contentAlign": "center",
-                "text": "<span style=\"font-style: normal;\">Sin importar el tamaño de tu negocio.</span>",
+                "text": "<span style=\"font-style: normal;\">no importa, nosotros te podemos ayudar.</span>",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
@@ -177,10 +177,10 @@
                 "showTitle": true,
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "title": "The Crown",
+                "title": "Calidad y excelencia",
                 "overlay": true,
                 "contentAlign": "center",
-                "text": "<span style=\"font-style: normal;\">para conectar tu negocio.</span>",
+                "text": "<span style=\"font-style: normal;\">para potenciar tu negocio.</span>",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               }
             ]
@@ -195,6 +195,10 @@
             "P": {
               "font-family": "'Lato', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
+            },
+            "H2": {
+              "font-size": "60px",
+              "text-align": "center"
             }
           },
           "_customCSS": ""
