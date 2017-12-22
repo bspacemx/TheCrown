@@ -290,10 +290,10 @@
           ],
           "_name": "header3",
           "_anchor": "header3-j",
-          "_customHTML": "<section class=\"mbr-section mbr-section__container article\" data-rv-view=\"23\" style=\"background-color: rgb(255, 255, 255); padding-top: 20px; padding-bottom: 60px;\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-xs-12\">\n                <h3 class=\"mbr-section-title display-2 mbr-editable-content\" style=\"text-align: center; color: rgb(45, 45, 45);\" code-editable-id=\"22\">Servicios</h3>\n                \n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section mbr-section__container article\" data-rv-view=\"23\" style=\"background-color: rgb(255, 255, 255); padding-top: 20px; padding-bottom: 60px;\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-xs-12\">\n                <h3 class=\"mbr-section-title display-2 mbr-editable-content\" style=\"text-align: center; color: rgb(45, 45, 45);\" code-editable-id=\"64\">Servicios</h3>\n                \n            </div>\n        </div>\n    </div>\n</section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
-          "_customCSS": "@import url(undefined);\n.mbr-section-title, .mbr-section-subtitle {\n  text-align: center;\n}\n.mbr-section-title {\n  color: #2d2d2d;\n  padding: 80px;\n}\n",
+          "_customCSS": "@import url(undefined);\n.mbr-section-title, .mbr-section-subtitle {\n  text-align: center;\n}\n.mbr-section-title {\n  color: #2d2d2d;\n  padding: 100px;\n}\n",
           "_customTemplate": true,
           "_styles": {
             ".mbr-section-title": {
